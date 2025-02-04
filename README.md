@@ -1,1 +1,3 @@
 # MyHotKeyTool
+
+> Written by Cursor

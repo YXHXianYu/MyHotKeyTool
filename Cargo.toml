@@ -1,0 +1,8 @@
+[package]
+name = "MyHotKeyTool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enigo = "0.3.0" # 模拟输入设备
+rdev = "0.5.3"  # 监听输入设备
