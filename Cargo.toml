@@ -6,3 +6,15 @@ edition = "2021"
 [dependencies]
 enigo = "0.3.0" # 模拟输入设备
 rdev = "0.5.3"  # 监听输入设备
+
+[profile.release]
+# 开启链接时优化(Link Time Optimization)
+lto = true
+# 开启代码优化级别（0-3，3最小但最慢）
+opt-level = "s"  # 使用 's' 而不是 'z'
+# 开启代码段合并
+codegen-units = 1
+# # 去除调试信息
+# strip = true
+# # 开启紧凑符号表
+# panic = "abort"
