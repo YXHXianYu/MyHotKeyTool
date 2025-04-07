@@ -4,8 +4,8 @@ mod auto_clicker;
 use auto_clicker::AutoClicker;
 
 fn main() {
-    println!("Press `Ctrl+Shift+J` to start auto-clicking");
-    println!("Press again or press `Ctrl+Shift+K` to stop auto-clicking");
+    println!("Press `Ctrl+Shift+J` to start auto-clicking Left Button");
+    println!("Press `Ctrl+Shift+R` to start auto-clicking Right Button");
     let auto_clicker = AutoClicker::new();
     auto_clicker.start_listener();
 }
